@@ -57,3 +57,23 @@ Complete the required installation settings and wait for the installation to fin
 After installation, restart the virtual machine and log in.
 Screenshot 7: Kali Linux Installation
 ![Kali Linux Installation](screenshots/07-kali-installation.png)
+
+🪜 Step 8: Create the NAT Network
+Open VirtualBox's network configuration interface.
+In VirtualBox versions that provide the NAT Network manager, navigate to:
+File - Tools - Network Manager - NAT Networks
+The exact menu names may vary by version.
+Create a new NAT Network with these settings:
+Setting
+Value
+Network name
+Kali-NAT
+Network IPv4 prefix
+10.0.0.0/24
+Network mode
+NAT Network
+DHCP
+Enabled, if automatic IP assignment is required
+Apply or save the settings.
+Screenshot 8: NAT Network Created
+![NAT Network Configuration](screenshots/08-nat-network-created.png)
