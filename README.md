@@ -27,3 +27,13 @@ Choose an installation image suitable for a new VirtualBox virtual machine.
 Wait for the download to complete.
 Screenshot 3: Kali Linux ISO Downloaded
 ![Kali Linux ISO](screenshots/03-kali-iso-downloaded.png)
+
+🪜 Step 4: Create the Virtual Machine
+Open VirtualBox and select New.
+Configure:
+Name: Kali Linux
+Operating system type: Linux
+Version: Choose the appropriate 64-bit Debian/Linux option if available.
+Select the downloaded Kali Linux ISO when prompted.
+Screenshot 4: Virtual Machine Created
+![Create Virtual Machine](screenshots/04-create-virtual-machine.png)
