@@ -112,3 +112,19 @@ Some networks block ICMP traffic, so a failed ping does not necessarily mean the
 Screenshot 11: Network Connectivity Test
 ![Network Connectivity](screenshots/11-network-connectivity.png)
 
+
+🧠 What I Learned
+Through this practical exercise, I aim to understand:
+How to create and manage a virtual machine.
+How to install Kali Linux in VirtualBox.
+How to configure a NAT Network.
+The meaning of an IPv4 subnet and subnet mask.
+How to inspect network interfaces in Linux.
+How to troubleshoot basic network connectivity.
+🏁 Conclusion
+This project documents the setup of a Kali Linux virtual machine using Oracle VirtualBox, with a NAT Network configured for the 10.0.0.0/24 subnet.
+The accompanying screenshots and test results provide evidence of each stage of the practical exercise.
+📚 References
+Kali Linux Official Website⁠�
+VirtualBox Official Website⁠�
+
