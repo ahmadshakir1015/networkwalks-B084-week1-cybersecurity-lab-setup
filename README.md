@@ -44,3 +44,16 @@ Avoid allocating so much RAM or CPU capacity that the host operating system beco
 Record the settings you actually use.
 Screenshot 5: Hardware Configuration
 ![Memory and Processor Configuration](screenshots/05-memory-and-processors.png)
+
+🪜 Step 6: Create the Virtual Hard Disk
+Create a virtual hard disk for the Kali Linux installation.
+Choose a suitable disk size based on the available storage and the requirements of your installation.
+Screenshot 6: Virtual Hard Disk.
+![Virtual Hard Disk](screenshots/06-virtual-hard-disk.png)
+
+🪜 Step 7: Install Kali Linux
+Start the virtual machine and follow the Kali Linux installation wizard.
+Complete the required installation settings and wait for the installation to finish.
+After installation, restart the virtual machine and log in.
+Screenshot 7: Kali Linux Installation
+![Kali Linux Installation](screenshots/07-kali-installation.png)
