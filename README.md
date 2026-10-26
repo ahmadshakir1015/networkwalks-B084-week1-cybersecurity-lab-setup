@@ -77,3 +77,24 @@ Enabled, if automatic IP assignment is required
 Apply or save the settings.
 Screenshot 8: NAT Network Created
 ![NAT Network Configuration](screenshots/08-nat-network-created.png)
+
+🪜 Step 9: Connect Kali Linux to the NAT Network
+Open the settings for the Kali Linux virtual machine.
+Navigate to:
+Settings - Network - Adapter 1
+Configure:
+Enable Network Adapter: checked.
+Attached to: NAT Network.
+Name: Kali-NAT.
+Save the changes.
+Screenshot 9: Network Adapter Configured
+![Network Adapter](screenshots/09-network-adapter-configured.png)
+
+🪜 Step 10: Verify the IP Address
+Start Kali Linux and open a terminal.
+Run:
+ip -4 addr
+
+This command displays IPv4 address information for the system's network interfaces.
+Find the active network interface and record the IPv4 address assigned to it.
+Screenshot 10: Kali Linux IP Address
