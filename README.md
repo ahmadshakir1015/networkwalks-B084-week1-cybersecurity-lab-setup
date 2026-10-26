@@ -19,3 +19,11 @@ Install the version compatible with your host operating system.
 After installation, open VirtualBox and confirm that its main interface appears.
 Screenshot 2: VirtualBox Installed
 ![VirtualBox Installed](screenshots/02-virtualbox-installed.png)
+
+🪜 Step 3: Download Kali Linux
+Visit the official Kali Linux download page:
+Kali Linux Downloads⁠�
+Choose an installation image suitable for a new VirtualBox virtual machine.
+Wait for the download to complete.
+Screenshot 3: Kali Linux ISO Downloaded
+![Kali Linux ISO](screenshots/03-kali-iso-downloaded.png)
