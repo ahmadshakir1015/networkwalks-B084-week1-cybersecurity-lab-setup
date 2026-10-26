@@ -37,3 +37,10 @@ Version: Choose the appropriate 64-bit Debian/Linux option if available.
 Select the downloaded Kali Linux ISO when prompted.
 Screenshot 4: Virtual Machine Created
 ![Create Virtual Machine](screenshots/04-create-virtual-machine.png)
+
+🪜 Step 5: Configure Memory and Processors
+Allocate memory and processor resources based on the host computer's available capacity.
+Avoid allocating so much RAM or CPU capacity that the host operating system becomes unstable.
+Record the settings you actually use.
+Screenshot 5: Hardware Configuration
+![Memory and Processor Configuration](screenshots/05-memory-and-processors.png)
