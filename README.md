@@ -98,3 +98,17 @@ ip -4 addr
 This command displays IPv4 address information for the system's network interfaces.
 Find the active network interface and record the IPv4 address assigned to it.
 Screenshot 10: Kali Linux IP Address
+![Kali IP Address](screenshots/10-kali-ip-address.png)
+
+🪜 Step 11: Test Network Connectivity
+First, check the network interface and its address.
+Then test connectivity to a public IP address:
+ping -c 4 1.1.1.1
+This sends four ICMP echo requests to the destination.
+If that succeeds, test DNS resolution:
+ping -c 4 example.com
+the first test succeeds but the second fails, investigate DNS configuration.
+Some networks block ICMP traffic, so a failed ping does not necessarily mean the entire network is unavailable.
+Screenshot 11: Network Connectivity Test
+![Network Connectivity](screenshots/11-network-connectivity.png)
+
